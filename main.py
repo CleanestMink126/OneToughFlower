@@ -92,7 +92,7 @@ def start_screen(screen, controller):
 
             desc = [["These guys produce seeds, which let you plant flowers.", "But don't let them all die, or you'll fail!"],
                     ["These beefy boys will suck up lava.", "Use them to protect key points"],
-                    ["These sneezer will blow away lava that lands on them", "in the direct they're facing."],
+                    ["These sneezers will blow away lava that lands on them", "in the direction they're facing."],
                     ["These guys are pretty weak,", "but they leave deadly blizzard in their wake."]]
             for i, type in enumerate(["MFlow", "BFlow", "DFlowd", "IFlow"]):
                 lay = ["Soil", None, type]

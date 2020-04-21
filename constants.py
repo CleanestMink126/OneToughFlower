@@ -1,3 +1,6 @@
+import os
+import sys
+
 
 BOARD_SIZE = (10, 10)
 BOARD_SIZE_PX = (600, 600)
@@ -21,7 +24,7 @@ BACKGROUNDS = {
 }
 
 MIDDLE = {
-    "Threat": ["imgs/threat1.png"],
+    "Threat": ["imgs/threat1.png", "imgs/threat2.png", "imgs/threat3.png"],
 }
 
 TOP = {

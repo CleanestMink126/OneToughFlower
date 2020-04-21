@@ -24,10 +24,10 @@ class PygameHandler:
         self.shakey = 0
 
     def make_highlighter(self, tile_size):
-        full_path = os.path.join(HIGHLIGHTER)
+        full_path = (HIGHLIGHTER)
         img = pygame.image.load(full_path)
         self.highlight = pygame.transform.scale(img, tile_size)
-        full_path = os.path.join(SELECTOR)
+        full_path = (SELECTOR)
         img = pygame.image.load(full_path)
         self.select = pygame.transform.scale(img, tile_size)
 
@@ -50,7 +50,7 @@ class PygameHandler:
                     for k, v in l.items():
                         imgs = []
                         for path in v:
-                            full_path = os.path.join(path)
+                            full_path = (path)
                             img = pygame.image.load(full_path)
                             img = pygame.transform.scale(img, tile_size)
                             imgs.append(img)
@@ -60,7 +60,7 @@ class PygameHandler:
                 else:
                     imgs = []
                     for path in l:
-                        full_path = os.path.join(path)
+                        full_path = (path)
                         img = pygame.image.load(full_path)
                         img = pygame.transform.scale(img, tile_size)
                         imgs.append(img)

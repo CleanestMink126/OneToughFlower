@@ -30,3 +30,5 @@ cx_Freeze.setup(
     executables=executables
 
 )
+[('imgs/*.png', 'imgs'), ('imgs/lava/*.png', 'imgs/lava'), ('imgs/seed/*.png', 'imgs/seed'), ('imgs/rock/*.png', 'imgs/rock'), ('imgs/ice/*.png', 'imgs/ice'), ('imgs/carrot/*.png', 'imgs/carrot'), ('imgs/dirt/*.png', 'imgs/dirt'),
+ ('imgs/flowers/*.png', 'imgs/flowers'), ('imgs/iflow/*.png', 'imgs/iflow'), ('sounds/*', 'sounds'), ('sounds/seed/*', 'sounds/seed'), ('sounds/ice/*', 'sounds/ice'), ('sounds/carrot/*', 'sounds/carrot'), ('sounds/wind/*', 'sounds/wind')],
